@@ -1,0 +1,284 @@
+/* Estilos Generales */
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/gotham/GothamMedium.ttf);
+}
+@font-face {
+    font-family: AkriaExpanded;
+    src: url(../fonts/AkiraExpanded.otf);
+}
+@font-face {
+    font-family: ErotiqueText;
+    src: url(../fonts/ErotiqueTextRegular.otf);
+}
+@font-face {
+    font-family: GothamItalic;
+    src: url(../fonts/gotham/Gotham-BookItalic.otf);
+}
+*{
+    font-family: Gotham;
+}
+.textoCentrado{
+    text-align: center;
+}
+.margin{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+.p{
+    font-family: GothamItalic;
+    font-size: 1rem;
+}
+.h4{
+    font-family: AkriaExpanded;
+    font-size: 4rem;
+}
+
+/* Header Estilos */
+.headerBackground{
+    background-color: #EDEAED;
+    background-size: cover;
+    width: 100%;
+    height: 28vh;
+    border-bottom: 0.2rem solid #E0E0E0;
+}
+.headerLogo{
+    background-size: cover;
+    width: 10vh;
+    height: 10vh;
+}
+.headerh1{
+    font-size: 1rem;
+}
+
+/* Estilo para el menú de navegación */
+.headerMENU a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #333333;
+    font-size: 1rem;
+}
+
+/* Main Estilos */
+/* Section */
+.secMainBanner{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.secMainh2{
+    font-family: AkriaExpanded;
+    font-size: 7rem;
+    letter-spacing: 3rem;
+}
+
+.secMainh3{
+    font-family: ErotiqueText;
+    font-size: 2rem;
+}
+
+.secMainh5{
+    font-family: GothamItalic;
+    font-size: 1.5rem;
+}
+
+.secMainp{
+    font-size: 1rem;
+    width: 50rem;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+}
+
+/* Article */
+.artsech5{
+    font-size: 1rem;
+    width: 25rem;
+}
+
+.artMainIMG{
+    width: 25rem;
+}
+
+.artSech6{
+    font-size: 1.8rem;
+}
+
+/* Section Estilos */
+.titleSecPOPULARES{
+    background-color: #EDEAED;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.sectPopularesIMG{
+    width: 12rem;
+}
+
+.sectPopularesh6{
+    font-size: 1rem;
+}
+
+.pSectPopulares{
+    font-family: GothamItalic;
+    font-size: 1rem;
+    width: 12rem;
+}
+
+.enlace-texto{
+    color: #000000;
+    font-family: GothamItalic;
+    font-size: 1rem;
+    width: 12rem;
+    font-weight: bolder;
+    display: block;
+}
+
+/* Footer Estilos */
+.footerBackground{
+    background-color: #EDEAED;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 28vh;
+    border-top: 0.2rem solid #E0E0E0;
+}
+
+.footerBrandh3{
+    font-size: 2rem;
+    margin: 0;
+    color: #333333;
+    margin-top: 0.5em;
+}
+
+.footerBrandp{
+    font-family: ErotiqueText;
+    font-size: 1rem;
+}
+
+.navFooter img{
+    width: 1.5rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+.navFooter a{
+    margin-top: 0.5rem;
+    color: #333333;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pFooter{
+    color: #333333;
+    font-family: Gotham;
+    font-size: 1rem;
+    margin-top: 5rem;
+}
+
+/* PRODUCTOS.html */
+.mainBackground{
+    background-color: #EDEAED;
+    background-size: cover;
+}
+
+.mainPagesh1{
+    font-family: AkriaExpanded;
+    font-size: 5rem;
+}
+
+.secmainSubTitle{
+    font-family: ErotiqueText;
+    font-size: 1.5rem;
+}
+
+.secmainPrendas{
+    font-size: 5rem;
+}
+
+.mainProductIMG{
+    width: 18rem;
+}
+
+.pmainProduct{
+    width: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NOSOTROS.html */
+.pmainNovedades{
+    width: 18rem;
+}
+
+.pmainNosotros{
+    width: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    max-width: 800px;
+}
+
+.content h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* CONTACTO.html */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.contact-form label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0.1rem solid #E0E0E0;
+    border-radius: 0.4rem;
+}
+
+.contact-form .submit-button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.contact-form h5 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 6.5rem;
+}
