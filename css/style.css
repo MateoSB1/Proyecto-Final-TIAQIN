@@ -492,52 +492,48 @@
 }
 
 /* NOSOTROS.html */
-.card-container-flex-Nosotros {
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+/* NOSOTROS.html */
+.nosotros-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem; /* Espacio entre las tarjetas */
-    justify-content: center; /* Centra las tarjetas en el contenedor */
-    margin-bottom: 2.5rem;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    gap: clamp(20px, 5vw, 40px);
+    justify-content: center;
 }
 
-.card-flex-Nosotros {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    width: 100%;
-    max-width: 40rem;
+.nosotros-image img {
+    width: clamp(20rem, 45vh, 70rem);
+    border-radius: 8px;
 }
 
-.card-flex-Nosotros-2 {
-    display: flex;
-    flex-direction: column;
-    width: 35rem;
+.nosotros-image {
+    padding: 1rem 0;
 }
 
-.card-img-flex-Nosotros {
-    width: 100%;
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
-    border-radius: 0.8rem;
+.nosotros-content {
+    padding: 1rem 0;
+    max-width: clamp(300px, 50%, 600px);
+    text-align: left;
+    align-self: flex-start;
 }
 
-.pmainNosotros{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.1rem;
-    width: 35rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+.nosotros-content h4 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: clamp(10px, 2vw, 20px);
 }
 
-.h5mainNosotros{
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    width: 35rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+.nosotros-content h5 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: clamp(10px, 2vw, 20px);
+}
+
+.nosotros-content p {
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
+    line-height: 1.6;
+    color: #333;
 }
 
 /* CONTACTO.html */
