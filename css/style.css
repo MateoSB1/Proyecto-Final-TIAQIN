@@ -125,6 +125,9 @@
     padding: 0;
     font-weight: bold;
 }
+.backgroundCOLORg {
+    background-color: #EDEAED;
+}
 
 /* Header Estilos: INDEX.html, PRODUCTOS.html, NOVEDADES.html, NOSOTROS.html, CONTACTO.html */
 .headerBackground {
@@ -202,49 +205,6 @@
 
 .active-headerNAV {
     color: #000000;
-}
-
-/* FOOTER Estilos */
-.footerBackground{
-    background-color: #EDEAED;
-    background-size: cover;
-    text-align: center;
-    width: 100%;
-    height: 28vh;
-    border-top: 0.2rem solid #E0E0E0;
-}
-
-.footerBrand{
-    font-size: 2rem;
-    margin: 0;
-    color: #333333;
-    margin-top: 0.5em;
-}
-
-.footerBrandp{
-    font-family: ErotiqueText;
-    font-size: 1rem;
-}
-
-.navFooter img{
-    width: 1.5rem;
-    height: auto;
-    vertical-align: middle;
-}
-
-.navFooter a{
-    margin-top: 0.5rem;
-    color: #333333;
-    font-size: 0.875rem;
-    text-align: center;
-    text-decoration: none;
-}
-
-.pFooter{
-    color: #333333;
-    font-family: Gotham;
-    font-size: 1rem;
-    margin-top: 5rem;
 }
 
 /* INDEX.html */
