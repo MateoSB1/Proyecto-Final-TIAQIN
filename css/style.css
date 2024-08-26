@@ -226,6 +226,16 @@
     color: #000000;
 }
 
+/* FOOTER */
+.social-icon-img {
+    max-width: 1rem;
+    max-height: 1rem;
+}
+
+.textSocial {
+    display: flex;
+}
+
 /* INDEX.html */
 /* MAIN Estilos */
 /* Section */
@@ -511,39 +521,7 @@
 }
 
 /* NOSOTROS.html */
-/* NOSOTROS.html */
-.nosotros-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    gap: clamp(20px, 5vw, 40px);
-    justify-content: center;
-}
-
-.nosotros-image img {
-    width: clamp(20rem, 45vh, 70rem);
-    border-radius: 8px;
-}
-
-.nosotros-image {
-    padding: 1rem 0;
-}
-
-.nosotros-content {
-    padding: 1rem 0;
-    max-width: clamp(300px, 50%, 600px);
-    text-align: left;
-    align-self: flex-start;
-}
-
-.nosotros-content h4 {
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
-    margin-bottom: clamp(10px, 2vw, 20px);
-}
-
+.nosotros-content h4,
 .nosotros-content h5 {
     font-size: clamp(1.5rem, 4vw, 2.5rem);
     margin-bottom: clamp(10px, 2vw, 20px);
@@ -553,6 +531,10 @@
     font-size: clamp(1rem, 2.5vw, 1.125rem);
     line-height: 1.6;
     color: #333;
+}
+
+.nosotros-image img {
+    border-radius: 8px;
 }
 
 /* CONTACTO.html */
