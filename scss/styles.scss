@@ -1,0 +1,42 @@
+/* ESTILOS GENERALES */
+/* REGLAS de las Media Query */
+@import "utilities/mediaqueries";
+
+/* VARIABLES utilizadas */
+@import "utilities/variables";
+
+/* MIXINS del Proyecto */
+@import "utilities/mixins";
+
+/* EXTENDS del Proyecto */
+@import "utilities/extends";
+
+/* FUENTES de Letras del Proyecto */
+@import "utilities/typography";
+
+/* CLASES Generales del Proyecto */
+@import "utilities/generalClasses";
+
+/* CLASES Utilizadas en el Header del Proyecto */
+@import "layout/header";
+
+/* CLASES Utilizadas en el Footer del Proyecto */
+@import "layout/footer";
+
+/* CLASES Utilizadas en el Inicio del Proyecto */
+@import "layout/index";
+
+/* CLASES Utilizadas en el Productos del Proyecto */
+@import "layout/productos";
+
+/* CLASES Utilizadas en el Novedades del Proyecto */
+@import "layout/novedades";
+
+/* CLASES Utilizadas en el Nosotros del Proyecto */
+@import "layout/nosotros";
+
+/* CLASES Utilizadas en el Contacto del Proyecto */
+@import "layout/contacto";
+
+
+/*# sourceMappingURL=style.css.map */

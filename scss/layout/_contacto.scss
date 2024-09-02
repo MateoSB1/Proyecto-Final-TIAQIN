@@ -1,0 +1,43 @@
+/* CONTACTO.html */
+.container-contacto {
+    padding: 0 2rem 0 2rem;
+}
+
+.container-section-contacto {
+    margin-bottom: 2rem;
+}
+
+.titlesCONTACT {
+    font-size: 1.8rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+    @extend %contactFormTagsAdded;
+
+    h5 {
+        font-size: 1.2rem;
+    }
+    label {
+        font-weight: bold;
+    }
+    input {
+        @extend %contactFormTags;
+    }
+    select {
+        @extend %contactFormTags;
+    }
+    textarea {
+        @extend %contactFormTags;
+        resize: vertical;
+        min-height: 6.5rem;
+    }
+}
+
+.submit-button {
+    background-color: $colorGrisOscuro;
+    @extend %contactFormTagsAdded;
+}

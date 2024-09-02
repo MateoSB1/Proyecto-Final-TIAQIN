@@ -1,0 +1,61 @@
+/* PRODUCTOS.html */
+.secmainPrendas {
+    font-size: clamp(1.7rem, 4vw + 1rem, 5.2rem);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    transition: all 0.6s ease-in-out;
+}
+
+.pmainProduct{
+    font-family: ErotiqueText;
+    font-size: 1.5rem;
+    width: 75rem;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: 0.8rem;
+    display: flex;
+    text-align: center; /* Opcional: Centra el texto */
+}
+
+/* CSS Grid: PRODUCTOS.html */
+.container-article-pages{
+    padding: 0;
+}
+
+.card-container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: 80rem;
+    justify-content: center;
+    @include margins-paddings(1rem auto, 0 2rem);
+}
+
+.card-grid {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #00000040;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-grid {
+    @include sizes(100%, auto);
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.card-content-grid {
+    padding: 1rem;
+}
+
+.card-title-grid {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text-grid {
+    font-size: 1rem;
+    color: #666;
+}

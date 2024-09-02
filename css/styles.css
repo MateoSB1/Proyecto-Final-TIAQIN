@@ -1,0 +1,579 @@
+@charset "UTF-8";
+/* ESTILOS GENERALES */
+/* REGLAS de las Media Query */
+@media (max-width: 500px) {
+  .headerUL li:last-child {
+    display: none;
+  }
+  .hTitles {
+    padding-left: 0.3em;
+  }
+}
+@media (min-width: 501px) and (max-width: 960px) {
+  .headerUL li:last-child {
+    display: none;
+  }
+  .hTitles {
+    padding-left: 0.3em;
+  }
+}
+/* Desktop */
+/* @media only screen and (min-width: 961px) {
+
+} */
+/* Personalizados */
+@media (min-width: 995px) {
+  .headerBackground {
+    height: 7vh;
+  }
+}
+@media (max-width: 860px) {
+  .headerNAV {
+    margin: 0 0.8rem;
+  }
+}
+@media (min-width: 861px) and (max-width: 1296px) {
+  .secmainPrendas {
+    padding-left: 2rem;
+    max-width: 37.5rem;
+  }
+}
+@media (min-width: 1297px) {
+  .secmainPrendas {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media (max-width: 860px) {
+  .secmainPrendas {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media (max-width: 390px) {
+  .hTitles {
+    font-size: clamp(0.5rem, 3.8vw + 0.5rem, 1.8rem) !important;
+  }
+  .secMainh2v1 {
+    font-size: clamp(1.7rem, 3.8vw + 0.5rem, 1.8rem) !important;
+  }
+  .card-container-flex h3 {
+    font-size: clamp(0.5rem, 3.8vw + 0.5rem, 1rem) !important;
+    max-width: clamp(14.5rem, 1.8vw + 6.5rem, 6.8rem) !important;
+  }
+  .card-container-flex-2 h5 {
+    font-size: clamp(0.5rem, 3.8vw + 0.5rem, 1rem) !important;
+    max-width: clamp(14.5rem, 1.8vw + 6.5rem, 6.8rem) !important;
+  }
+}
+@media (max-height: 512px) {
+  .card-flex-parrafo {
+    font-size: clamp(0.3rem, 1.8vw + 0.2rem, 0.62rem) !important;
+    width: 95% !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+/* VARIABLES utilizadas */
+/* COLORES */
+/* MIXINS del Proyecto */
+/* @Mixins */
+/* EXTENDS del Proyecto */
+/* @Extends */
+.card-container-flex-2, .container-article-2, .card-container-flex, .container-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra las tarjetas en el contenedor */
+}
+
+/* CONTACTO.html */
+.nosotros-content h5, .nosotros-content h4 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: clamp(10px, 2vw, 20px);
+}
+
+.contact-form textarea, .contact-form select, .contact-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 0.1rem solid #E0E0E0;
+  border-radius: 0.4rem;
+}
+
+.submit-button, .contact-form {
+  padding: 0.75rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+/* FUENTES de Letras del Proyecto */
+@font-face {
+  font-family: Gotham;
+  src: url(../fonts/gotham/GothamMedium.ttf);
+}
+@font-face {
+  font-family: AkriaExpanded;
+  src: url(../fonts/AkiraExpanded.otf);
+}
+@font-face {
+  font-family: ErotiqueText;
+  src: url(../fonts/ErotiqueTextRegular.otf);
+}
+@font-face {
+  font-family: GothamItalic;
+  src: url(../fonts/gotham/Gotham-BookItalic.otf);
+}
+/* CLASES Generales del Proyecto */
+/* CLASES Generales del Proyecto */
+* {
+  font-family: Gotham;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #000000;
+}
+
+.textoCentrado {
+  text-align: center;
+}
+
+.margin {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+.p {
+  font-family: GothamItalic;
+  font-size: 1rem;
+}
+
+.hTitles {
+  font-family: AkriaExpanded;
+  font-size: clamp(1.7rem, 4vw + 1rem, 5.2rem);
+  letter-spacing: clamp(0.4rem, 1vw + 0.5rem, 2rem);
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.secmainSubTitle {
+  font-family: ErotiqueText;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.backgroundCOLORg {
+  background-color: #EDEAED;
+}
+
+/* INDEX.html, NOVEDADES.html: Article */
+.card-container-flex {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  gap: 1rem; /* Espacio entre las tarjetas */
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2509803922);
+  width: 100%;
+  max-width: 22rem;
+}
+
+.card-img-flex {
+  width: 100%;
+  height: auto;
+  /* Mantiene la relación de aspecto de la imagen */
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.card-content-flex {
+  padding: 1rem;
+}
+
+.card-title-flex {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  width: 15rem;
+}
+
+.card-text-flex {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* CLASES Utilizadas en el Header del Proyecto */
+/* HEADER ESTILOS */
+.headerBackground {
+  background-color: #EDEAED;
+  background-size: cover;
+  width: 100%;
+  /* height: 7vh; */
+  border-bottom: 0.2rem solid #C8C8C8;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-class-container-fluid {
+  padding-left: 0;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Alinea los elementos a los extremos; y Alinea los elementos verticalmente */
+  height: 100%;
+  padding-right: 1rem;
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerLogo img {
+  background-size: cover;
+  width: 8vh;
+  height: 8vh;
+}
+
+.headerh1 {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-weight: bold;
+}
+
+.headerNAV {
+  justify-content: center;
+  width: 100%;
+  margin-right: 15rem;
+}
+.headerNAV a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: #333333;
+}
+
+.active-headerNAV {
+  color: #000000;
+}
+
+/* CLASES Utilizadas en el Footer del Proyecto */
+/* FOOTER ESTILOS */
+.social-icon-img {
+  max-width: 1rem;
+  max-height: 1rem;
+}
+
+.textSocial {
+  display: flex;
+}
+
+/* CLASES Utilizadas en el Inicio del Proyecto */
+/* INDEX.html */
+/* MAIN Estilos */
+/* Section */
+.secMainBanner {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+  border-bottom: 0.2rem solid #C8C8C8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secMainh2v1 {
+  font-family: AkriaExpanded;
+  font-size: clamp(3rem, 8.5vw + 1rem, 8rem);
+  letter-spacing: clamp(1rem, 2.5vw + 0.5rem, 3rem);
+  margin: 0;
+  padding: 0;
+}
+
+.secMainh2v2 {
+  font-family: ErotiqueText;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.secMainh2v3 {
+  font-family: GothamItalic;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.card-flex-parrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Gotham, sans-serif;
+  font-size: clamp(0.8rem, 1vw + 0.5rem, 1rem); /* Ajusta la fuente de manera más fluida */
+  background-color: rgba(237, 234, 237, 0.5647058824);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3764705882);
+  width: 90%; /* Se reduce proporcionalmente con la pantalla */
+  max-width: 45rem;
+  margin: 2rem auto; /* Centra la card en la pantalla con margen automático */
+  padding: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1.5rem;
+  line-height: 1.2;
+  box-sizing: border-box; /* Asegura que padding y border se incluyan en las dimensiones de la card */
+}
+
+.arthSEC {
+  font-size: 1rem;
+  width: 20rem;
+  display: block;
+  margin-right: 0.3rem;
+  font-weight: bolder;
+}
+
+.card-flex-extra {
+  display: flex;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 22rem;
+}
+
+.card-img-flex-extra {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* Index.html / POPULARES: Article */
+.titleSecPOPULARES {
+  background-color: #EDEAED;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-container-flex-2 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  width: 90rem;
+}
+
+.card-flex-article-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2509803922);
+  width: 100%;
+  max-width: 14rem;
+}
+
+.card-img-flex-article-2 {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.card-content-flex-article-2 {
+  padding: 1rem;
+}
+
+.card-title-flex-article-2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  width: 12rem;
+}
+
+.card-text-flex-article-2 {
+  font-size: 1rem;
+  color: #666;
+  width: 12rem;
+}
+
+.enlace-texto {
+  color: #000000;
+  font-family: GothamItalic;
+  font-size: 1rem;
+  width: 12rem;
+  font-weight: bolder;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+/* CLASES Utilizadas en el Productos del Proyecto */
+/* PRODUCTOS.html */
+.secmainPrendas {
+  font-size: clamp(1.7rem, 4vw + 1rem, 5.2rem);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  transition: all 0.6s ease-in-out;
+}
+
+.pmainProduct {
+  font-family: ErotiqueText;
+  font-size: 1.5rem;
+  width: 75rem;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 0.8rem;
+  display: flex;
+  text-align: center; /* Opcional: Centra el texto */
+}
+
+/* CSS Grid: PRODUCTOS.html */
+.container-article-pages {
+  padding: 0;
+}
+
+.card-container-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  max-width: 80rem;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 0 2rem;
+}
+
+.card-grid {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-grid {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.card-content-grid {
+  padding: 1rem;
+}
+
+.card-title-grid {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text-grid {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* CLASES Utilizadas en el Novedades del Proyecto */
+/* NOVEDADES.html */
+.artsech5 {
+  font-size: 1rem;
+  width: 20rem;
+  display: block;
+  margin-right: 0.3rem;
+  font-weight: bolder;
+}
+
+/* CLASES Utilizadas en el Nosotros del Proyecto */
+/* NOSOTROS.html */
+.nosotros-content p {
+  font-size: clamp(1rem, 2.5vw, 1.125rem);
+  line-height: 1.6;
+  color: #333;
+}
+.nosotros-content img {
+  border-radius: 8px;
+}
+
+/* CLASES Utilizadas en el Contacto del Proyecto */
+/* CONTACTO.html */
+.container-contacto {
+  padding: 0 2rem 0 2rem;
+}
+
+.container-section-contacto {
+  margin-bottom: 2rem;
+}
+
+.titlesCONTACT {
+  font-size: 1.8rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.contact-form h5 {
+  font-size: 1.2rem;
+}
+.contact-form label {
+  font-weight: bold;
+}
+.contact-form textarea {
+  resize: vertical;
+  min-height: 6.5rem;
+}
+
+.submit-button {
+  background-color: #333333;
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
