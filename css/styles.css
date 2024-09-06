@@ -1,6 +1,35 @@
 @charset "UTF-8";
-/* ESTILOS GENERALES */
-/* REGLAS de las Media Query */
+/* COLORES */
+/* @Mixins */
+/* @Extends */
+.card-container-flex-2, .container-article-2, .card-container-flex, .container-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra las tarjetas en el contenedor */
+}
+
+/* CONTACTO.html */
+.nosotros-content h5, .nosotros-content h4 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-bottom: clamp(10px, 2vw, 20px);
+}
+
+.contact-form textarea, .contact-form select, .contact-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 0.1rem solid #E0E0E0;
+  border-radius: 0.4rem;
+}
+
+.submit-button, .contact-form {
+  padding: 0.75rem;
+  color: #FFFFFF;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
 @media (max-width: 500px) {
   .headerUL li:last-child {
     display: none;
@@ -80,41 +109,6 @@
     padding-bottom: 0 !important;
   }
 }
-/* VARIABLES utilizadas */
-/* COLORES */
-/* MIXINS del Proyecto */
-/* @Mixins */
-/* EXTENDS del Proyecto */
-/* @Extends */
-.card-container-flex-2, .container-article-2, .card-container-flex, .container-article {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Centra las tarjetas en el contenedor */
-}
-
-/* CONTACTO.html */
-.nosotros-content h5, .nosotros-content h4 {
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
-  margin-bottom: clamp(10px, 2vw, 20px);
-}
-
-.contact-form textarea, .contact-form select, .contact-form input {
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: 0.1rem solid #E0E0E0;
-  border-radius: 0.4rem;
-}
-
-.submit-button, .contact-form {
-  padding: 0.75rem;
-  color: #FFFFFF;
-  font-size: 1rem;
-  border: none;
-  border-radius: 0.4rem;
-  cursor: pointer;
-}
-
-/* FUENTES de Letras del Proyecto */
 @font-face {
   font-family: Gotham;
   src: url(../fonts/gotham/GothamMedium.ttf);
@@ -131,7 +125,6 @@
   font-family: GothamItalic;
   src: url(../fonts/gotham/Gotham-BookItalic.otf);
 }
-/* CLASES Generales del Proyecto */
 /* CLASES Generales del Proyecto */
 * {
   font-family: Gotham;
@@ -220,7 +213,6 @@
   color: #666;
 }
 
-/* CLASES Utilizadas en el Header del Proyecto */
 /* HEADER ESTILOS */
 .headerBackground {
   background-color: #EDEAED;
@@ -296,7 +288,6 @@
   color: #000000;
 }
 
-/* CLASES Utilizadas en el Footer del Proyecto */
 /* FOOTER ESTILOS */
 .social-icon-img {
   max-width: 1rem;
@@ -307,7 +298,6 @@
   display: flex;
 }
 
-/* CLASES Utilizadas en el Inicio del Proyecto */
 /* INDEX.html */
 /* MAIN Estilos */
 /* Section */
@@ -453,7 +443,6 @@
   margin-bottom: 0.2em;
 }
 
-/* CLASES Utilizadas en el Productos del Proyecto */
 /* PRODUCTOS.html */
 .secmainPrendas {
   font-size: clamp(1.7rem, 4vw + 1rem, 5.2rem);
@@ -518,7 +507,6 @@
   color: #666;
 }
 
-/* CLASES Utilizadas en el Novedades del Proyecto */
 /* NOVEDADES.html */
 .artsech5 {
   font-size: 1rem;
@@ -528,7 +516,6 @@
   font-weight: bolder;
 }
 
-/* CLASES Utilizadas en el Nosotros del Proyecto */
 /* NOSOTROS.html */
 .nosotros-content p {
   font-size: clamp(1rem, 2.5vw, 1.125rem);
@@ -539,7 +526,6 @@
   border-radius: 8px;
 }
 
-/* CLASES Utilizadas en el Contacto del Proyecto */
 /* CONTACTO.html */
 .container-contacto {
   padding: 0 2rem 0 2rem;
@@ -573,7 +559,5 @@
 .submit-button {
   background-color: #333333;
 }
-
-
 
 /*# sourceMappingURL=styles.css.map */
