@@ -11,25 +11,6 @@ Este proyecto fue desarrollado como parte del Curso de Desarrollo Web en CoderHo
 •	SEO (Posicionamiento Web): Aplicación de técnicas básicas de SEO para mejorar la visibilidad del sitio en motores de búsqueda.
 •	Responsive Design: El sitio está optimizado para adaptarse a diferentes resoluciones de pantalla (móvil, tablet y escritorio).
 
-📁 Estructura del Proyecto
-├── index.html              # Página principal del proyecto
-├── pages/
-│   ├── productos.html      # Página con todos los productos del proyecto
-│   ├── novedades.html      # Página con las novedades del sitio
-│   ├── nosotros.html       # Página con la información del equipo del proyecto
-│   ├── contacto.html       # Página de contacto en el sitio
-├── css/
-│   ├── styles.css          # Archivo CSS
-│   ├── styles.css.map
-├── scss/                   # Carpeta de estilos en SASS utilizadas en el sitio
-│   ├── styles.scss
-│   ├── components/         # Conjuntos de estilos para el header y footer
-│   ├── layout/             # Conjuntos de estilos para cada página del proyecto
-│   ├── utilities/          # Conjuntos de estilos para la optimización correcta de CSS
-├── fonts/                  # Carpeta de fuentes utilizadas en el sitio
-├── images/                 # Carpeta de imágenes utilizadas en el sitio
-└── README.md               # Archivo con la descripción del proyecto
-
 🚩 Funcionalidades del Proyecto
 1.	Página Web Estática: Diseño responsive utilizando flexbox, grid y Bootstrap.
 2.	Compatibilidad: Funciona en los navegadores más populares.
