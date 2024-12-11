@@ -1,3 +1,4 @@
+
 # 🌐Proyecto de Desarrollo Web de CoderHouse: TIAQIN Elements🌟
 
 ## 🚀Descripción
@@ -43,9 +44,9 @@ Proyecto-Final-TIAQIN/
 **Repositorio del Proyecto**:
 
 ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   https://github.com/MateoSB1/Proyecto-Final-TIAQIN
 ```
 
 ---
 
-_🧑‍💻 Autor Mateo Brancato – LinkedIn: https://www.linkedin.com/in/mateobrancatosb1/ GitHub: https://github.com/MateoSB1_
+_🧑‍💻 Autor Mateo Brancato – Desarrollador Web LinkedIn: https://www.linkedin.com/in/mateobrancatosb1/ GitHub: https://github.com/MateoSB1_
