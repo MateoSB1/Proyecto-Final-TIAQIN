@@ -3,7 +3,7 @@
 
 ## 🚀Descripción
 
-Este proyecto es un sitio web interactivo y responsivo diseñado para la entrega final del Curso de Desarrollo Web de CoderHouse. Aprendimos los fundamentos de HTML5 y CSS3, aplicando conceptos clave para construir un sitio web responsive y accesible. El proyecto consiste en una página web estática que representa un ejemplo de los conocimientos adquiridos durante el curso. Incluye un diseño moderno, funcionalidades dinámicas y está optimizado para diferentes dispositivos.
+Este proyecto es mi primer proyecto en el mundo del desarrollo web, un sitio web interactivo y responsivo diseñado para la entrega final del Curso de Desarrollo Web de CoderHouse. Aprendimos los fundamentos de HTML5 y CSS3, aplicando conceptos clave para construir un sitio web responsive y accesible. El proyecto consiste en una página web estática que representa un ejemplo de los conocimientos adquiridos durante el curso. Incluye un diseño moderno, funcionalidades dinámicas y está optimizado para diferentes dispositivos.
 
 ## ⚙️Características
 
